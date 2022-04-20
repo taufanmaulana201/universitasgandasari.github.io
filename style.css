@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+nav {
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  z-index: 9999;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav a {
+  margin-right: 20px;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-kegiatan {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: absolute;
+  top: 550px;
+  z-index: 99;
+}
+.card-kegiatan .card-nya {
+  width: 300px;
+  height: 180px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 16px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.card-nya:hover,
+.card-info:hover,
+.card-prodi:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.title-kegiatan h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.tanggal h1 {
+  color: #015edf;
+}
+.bulan {
+  color: #015edf;
+}
+.batas p {
+  margin-top: 5px;
+}
+.about {
+  margin-top: 120px;
+  padding: 35px;
+}
+.about h1 {
+  font-weight: bold;
+}
+.about p {
+  width: 60%;
+  font-size: 17px;
+}
+.container-card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-info {
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.container-prodi {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: max-content;
+}
+.card-prodi {
+  width: 255px;
+  height: 107px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  border-radius: 3px;
+  border: 1 px solid black;
+  display: flex;
+  position: relative;
+  transition: 0.5s;
+  /* background-color: #ff9000; */
+}
+.img-prodi {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-prodi .nama-prodi {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.akreditasi {
+  width: 100px;
+  height: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #dc3545;
+  position: absolute;
+  right: 0;
+  padding-left: 5px;
+  border-radius: 0px 0px 0px 5px;
+}
+.c {
+  background-color: #ffc107;
+}
+.b {
+  background-color: #28a745;
+}
+footer {
+  background-color: #015edf;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: salmon;
+}
+.sosmed {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sosmednya {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+}
+.sosmednya img{
+  width: 30px;
+  height: 30px;
+}
+.copy{
+  background-color: #004288;
+  color:#fff;
+  font-size: 12px;
+  text-align: center;
+}
